@@ -1,0 +1,73 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.game {
+	width: 60%;
+	max-width: 800px;
+	margin: 64px auto;
+	border: 1px solid #c3c3c3;
+	padding: 32px;
+}
+.game__players {
+}
+.game__bids {
+	margin-top: 64px;
+	text-align: center;
+}
+.game__bids img {
+	width: 128px;
+}
+
+.game__form {
+	margin-top: 32px;
+	text-align: center;
+}
+.game__form input {
+	margin-right: 4px;
+}
+.game__winner {
+	border: 1px solid red;
+	background-color: azure;
+	text-align: center;
+	padding: 24px;
+}
+.game__actions {
+	margin-top: 16px;
+	text-align: center;
+}
